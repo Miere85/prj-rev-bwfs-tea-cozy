@@ -1,0 +1,140 @@
+.container {
+    width: 80%
+    margin: 0 auto;
+    color: seashell;
+    
+}
+
+header {
+  border-bottom: 1px;
+  border-left:0;
+  border-right:0;
+  border-top:0;
+  border-style: solid;
+  border-color: seashell;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  
+  z-index: 7;
+  background-color: black;
+  top: 0px;
+  padding: 3px;
+  
+}
+
+a:link,a:visited , a:active {
+    color:seashell;
+}
+
+body{
+    background-color: black;
+    font-family: Helvetica;
+    overflow: visible;
+       
+}
+
+body .main{
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.logo {
+    float: left;
+    
+}
+    
+nav {
+    float: right;
+}
+
+nav ul{
+
+    margin: 0;
+    padding: 12px;
+    list-style: none;
+}
+
+nav li{
+
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+nav a{
+
+    color:seashell;
+    text-decoration: underline;
+    font-size: 22px;
+    opacity: 0.9;
+    margin-right: 17px;
+}
+
+
+
+.main {
+    height: 700px;
+    opacity:0.9 ;
+  
+}
+
+
+
+
+#mission img{
+ width:-20px;
+ z-index:1;
+ margin-top: 51px;
+ 
+}
+
+.content{
+  background:black;
+  border-color:black;
+  border-style:solid;
+  position: absolute;
+  bottom: 70px;
+  width:143%;
+  height:5%
+  padding: -15%;
+  z-index: 2;
+ 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 3;
+    
+ h2{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+ }
+ 
+ h2, h3, h4 {
+    margin: 0px;
+    padding: 5px;
+    color: seashell;
+}
+===========
+
+h5{
+
+    color: seashell;
+}
+
+#try{
+
+    color: seashell;
+}
+}
+
+
+
+
